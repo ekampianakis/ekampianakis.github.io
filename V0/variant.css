@@ -1,0 +1,85 @@
+c
+
+
+@font-face {
+    font-family: "gara";
+    src: url(Myanmar Sangam MN.ttf)
+}
+
+
+
+*{margin:0;padding:0;}
+body{
+    zoom: 1; -moz-transform: scale(1);
+	background:#fff;
+	color:#000;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 81%;
+
+}
+
+
+img {
+-webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+     border-radius: 0px;
+    margin-right:10px;
+    margin-top:6px;
+-moz-box-shadow: 0px 0px 7px #888;
+-webkit-box-shadow: 0px 0px 7px #888;
+box-shadow: 0px 0px 7px #888;
+}
+
+
+a{color:#286ea0;text-decoration:none;}
+a:hover{text-decoration:underline;}
+a img{border:0;}
+h1{font-size:1.8em; margin: 10px 0 5px 0px; padding:0;     font-weight:normal;
+ }
+h2{font-size:1.8em;margin:0 0 12px; padding-top:0px; border-bottom: 1px solid #ccc;     font-weight:normal; color:#222; 
+}
+h3{font-size:1.3em;margin:0 0 10px; padding:0;     font-weight:normal; color:#dd0000;
+}
+p, ul, ol {font-size:11pt; line-height:1.5em; margin:0 0 15px;text-align:justify; color:#000;}
+
+
+hr {clear:both; visibility:hidden;}
+table {}
+
+#container{background:#fff; margin:0px auto 0 auto; padding: 0px 25px 20px 25px; width:950px;
+   }
+
+
+
+#logo{width: 950px; padding-top:30px; padding-bottom:30px;}
+
+#logo h1 a{font-size:1.6em; color:#777;padding-top:50px; color:#444444}
+#logo h1 a:hover{text-decoration:none;}
+#logo p{color:#555;font-size:1.5em;}
+#logo p a{color:#555;}
+#logo p a:hover{color:red; text-decoration:none;}
+
+
+
+#main h1{font-size:1.8em;letter-spacing:0px;margin: 0px 0 8px 400px; padding-top:0px; font-weight:normal; color:#000;
+ }
+
+
+#footer{clear:both;background:#fff; color:#bbb; padding-top:30px; text-align:left; -moz-border-radius: 6px; border-radius:6px; }
+#footer a{color:#eee;}
+#footer p{float:right; margin:0; font-size:0.9em; font-weight:700;}
+#footer h1{float:right; margin:0; font-size:1.5em; ;}
+
+
+
+
+.right{text-align:right;}
+.block{background:#eee url(images/corner.gif) no-repeat top right;padding:15px;border-bottom:1px solid #ccc;border-left:1px solid #ccc;}
+.hide{display:none;}
+
+#toplinks {width:600px; float:right; padding-top:10px;}
+#toplinks ul{list-style:none;margin:0;text-align:right;}
+#toplinks ul li{display:inline;font-size:2.5em; margin:5px 0 20px 10px; font-size:16px;}
+#toplinks ul li a{color:#bbb; font-size:1.3em;}
+#toplinks ul li a:hover{color:#dd0000;text-decoration:none;}
